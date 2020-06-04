@@ -151,10 +151,12 @@ Check [the Wiki page](https://github.com/knxd/knxd/wiki) for other version(s) to
 
 On Debian/Ubuntu:
 
-    sudo apt-get install git-core
+    sudo apt-get install git-core equivs
 
     # get the source code
     git clone https://github.com/knxd/knxd.git
+    cd knxd
+    git checkout debian
 
     # now build+install knxd
     sh knxd/install-debian.sh
